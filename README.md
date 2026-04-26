@@ -12,6 +12,7 @@ Spatial-Transcriptomics/
 ├── basic_analysis_spatial_transcriptomics.ipynb   # General intro pipeline for spatial data
 ├── Visium_H&E.ipynb                                # Visium analysis with H&E staining
 ├── Visium fluorescence.ipynb                       # Visium analysis with fluorescence imaging
+├── Results                                          # Rsulting graphs
 └── xenium_spatial_analysis.ipynb                   # Xenium single-cell spatial analysis
 ```
 
@@ -158,11 +159,11 @@ pip install spatialdata spatialdata-io
 
 ---
 
-## 📊 Results You Can Add
+## 📊 Results 
 
-If you have run these notebooks, you can enrich this repository by adding a `results/` folder with the following outputs:
+A  `results/` folder with the following outputs:
 
-### Suggested `results/` folder structure:
+###  `Results/` folder structure:
 ```
 results/
 ├── visium_HE/
@@ -181,22 +182,6 @@ results/
     ├── spatial_celltypes.png      # Single-cell map of the tissue
     ├── neighborhood_enrichment.png  # Heatmap of cell-type co-localization
     └── ligrec_interactions.png    # Ligand-receptor interaction dotplot
-```
-
-### To save figures in your notebooks, add:
-
-```python
-import matplotlib.pyplot as plt
-
-# After any plot, save it like this:
-plt.savefig("results/visium_HE/umap_clusters.png", dpi=150, bbox_inches="tight")
-```
-
-Or with Squidpy/Scanpy:
-
-```python
-sc.pl.umap(adata, color="leiden", save="_clusters.png")
-sq.pl.spatial_scatter(adata, color="leiden", save="spatial_clusters.png")
 ```
 
 ---
