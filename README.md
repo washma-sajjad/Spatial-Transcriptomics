@@ -157,34 +157,7 @@ pip install spatialdata spatialdata-io
 
 4. **Data:** These notebooks use publicly available datasets from 10x Genomics. Download the relevant datasets from the [10x Genomics datasets page](https://www.10xgenomics.com/datasets) and update the file paths in the notebooks accordingly.
 
----
 
-## 📊 Results 
-
-A  `results/` folder with the following outputs:
-
-###  `Results/` folder structure:
-```
-results/
-├── visium_HE/
-│   ├── umap_clusters.png          # UMAP plot colored by Leiden clusters
-│   ├── spatial_clusters.png       # Clusters overlaid on H&E tissue image
-│   ├── spatially_variable_genes.png  # Top spatially variable genes heatmap
-│   └── marker_genes_dotplot.png   # Dotplot of top marker genes per cluster
-│
-├── visium_fluorescence/
-│   ├── umap_clusters.png
-│   ├── spatial_fluorescence_overlay.png  # Gene expression over fluorescence image
-│   └── cluster_comparison.png
-│
-└── xenium/
-    ├── umap_celltypes.png         # UMAP colored by annotated cell types
-    ├── spatial_celltypes.png      # Single-cell map of the tissue
-    ├── neighborhood_enrichment.png  # Heatmap of cell-type co-localization
-    └── ligrec_interactions.png    # Ligand-receptor interaction dotplot
-```
-
----
 
 ## 📖 References & Resources
 
