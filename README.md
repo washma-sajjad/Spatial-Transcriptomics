@@ -2,6 +2,7 @@
 
 A collection of Jupyter notebooks for analyzing spatial transcriptomics data using three major platforms: **10x Genomics Visium (H&E)**, **Visium (Fluorescence)**, and **10x Genomics Xenium**. These notebooks cover the full analysis pipeline — from raw data loading to clustering, differential gene expression, and spatial visualization.
 
+If the notebooks are unable to open, find them here: https://drive.google.com/drive/folders/1F_YzScIo01eikOZu0aqcs5haH6BM0Hqa?usp=sharing
 ---
 
 ## 📁 Repository Structure
